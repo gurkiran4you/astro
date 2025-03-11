@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 485.92 32">
+  <defs>
+    <style>.cls-1{fill:#000002;}.cls-2{fill:none;stroke:#000002;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.55px;}</style>
+  </defs>
+  <path class="cls-1" d="M263.54,16.44c8.07-2.18,10.68-5.62,15.45-5.62,5.11,0,6,5.62,6,5.62Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M263.54,16.44c8.07,2.3,10.68,5.74,15.45,5.74,5.11,0,6-5.74,6-5.74Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M223.46,16.44c-8.07-2.18-10.68-5.62-15.45-5.62-5.11,0-6,5.62-6,5.62Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M223.46,16.44c-8.07,2.3-10.68,5.74-15.45,5.74-5.11,0-6-5.74-6-5.74Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M465,16.44c8.06-2.18,10.67-5.62,15.44-5.62,5.11,0,6,5.62,6,5.62Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M465,16.44c8.06,2.3,10.67,5.74,15.44,5.74,5.11,0,6-5.74,6-5.74Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M227.66,16.44h0A15.93,15.93,0,0,0,243.56.5h0a15.83,15.83,0,0,0,15.78,15.94h0A15.93,15.93,0,0,0,243.56,32.5h0a16,16,0,0,0-15.9-16.06Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M22.12,16.44c-8.18-2.18-10.79-5.62-15.56-5.62-5.11,0-6,5.62-6,5.62Z" transform="translate(-0.54 -0.5)"></path>
+  <path class="cls-1" d="M22.12,16.44c-8.18,2.3-10.79,5.74-15.56,5.74-5.11,0-6-5.74-6-5.74Z" transform="translate(-0.54 -0.5)"></path>
+  <line class="cls-2" x1="10.11" y1="15.94" x2="201.45" y2="15.94"></line>
+  <line class="cls-2" x1="284.46" y1="15.94" x2="471.95" y2="15.94"></line>
+</svg>
