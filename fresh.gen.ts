@@ -4,20 +4,24 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
-import * as $api_joke from "./routes/api/joke.ts";
 import * as $index from "./routes/index.tsx";
-import * as $Cards from "./islands/Cards.tsx";
+import * as $menu_index from "./routes/menu/index.tsx";
+import * as $MenuCard from "./islands/MenuCard.tsx";
+import * as $MenuDetails from "./islands/MenuDetails.tsx";
+import * as $ServiceCards from "./islands/ServiceCards.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
-    "./routes/api/joke.ts": $api_joke,
     "./routes/index.tsx": $index,
+    "./routes/menu/index.tsx": $menu_index,
   },
   islands: {
-    "./islands/Cards.tsx": $Cards,
+    "./islands/MenuCard.tsx": $MenuCard,
+    "./islands/MenuDetails.tsx": $MenuDetails,
+    "./islands/ServiceCards.tsx": $ServiceCards,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

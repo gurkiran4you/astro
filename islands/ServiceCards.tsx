@@ -9,10 +9,10 @@ export type what_to_expect = {
 
 const data: what_to_expect[] = [
     {
-        type: 'horoscope',
+        type: 'astrology',
         what: {
-            key: 'What is a Horoscope?',
-            value: 'A horoscope is a celestial blueprint of your life based on the alignment of planets and stars at the moment of your birth. It provides deep insights into your personality, strengths, weaknesses, and the opportunities and challenges that may come your way.'
+            key: 'What is astrology?',
+            value: 'Astrology is a celestial blueprint of your life based on the alignment of planets and stars at the moment of your birth. It provides deep insights into your personality, strengths, weaknesses, and the opportunities and challenges that may come your way.'
         },
         expect: [
             {
@@ -107,7 +107,7 @@ export function Cards() {
                         </p>
                     </figcaption>
                 </figure>
-                <span onClick={() => setOpen('horoscope')} class={` ${open === 'horoscope' ? 'pb-5' : ''} text-black cursor-pointer hover:underline border w-full inline-block text-center bg-cyan-100 border-t-[navajowhite] border-solid border-[cadetblue]`}>Learn more</span> 
+                <span onClick={() => setOpen('astrology')} class={` ${open === 'horoscope' ? 'pb-5' : ''} text-black cursor-pointer hover:underline border w-full inline-block text-center bg-cyan-100 border-t-[navajowhite] border-solid border-[cadetblue]`}>Learn more</span> 
             </div>
             <div class="w-[95%] m-auto  md:w-1/3 relative">
                 <figure class="relative group">
@@ -156,6 +156,7 @@ export function Cards() {
                             }
                         </ul>
                     </div>
+                    <a href={`/menu#${open}`} class="capitalize font-mono hover:underline mt-4 font-bold inline-block" >Click to explore {open} menu</a>
                 </aside>
             )
         }

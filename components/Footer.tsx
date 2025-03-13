@@ -7,9 +7,15 @@ export function Footer() {
         <div class="flex justify-end gap-4 items-center">
             <small class="text-sm font-bold font-sans capitalize">Follow us</small>
             <ul class="flex justify-end space-x-4">
-                <li><img width="24px" src="icons/fb.svg" /></li>
-                <li><img width="24px" src="icons/ig.svg" /></li>
-                <li><img width="100px" src="icons/yt.svg" /></li>
+                <li><img width="24px" src="icons/fb.svg" />
+                    <a target="_blank" href="https://www.facebook.com/share/1Up4kZJuXc/"></a>
+                </li>
+                <li><img width="24px" src="icons/ig.svg" />
+                    <a target="_blank" href="https://www.instagram.com/healing_by_meetu_proothi?igsh=MWE1OTY5NDhrbzhy"></a>
+                </li>
+                <li><img width="100px" src="icons/yt.svg" />
+                    <a target="_blank" href="https://youtube.com/@enlightenmentbymeetuprooth7928?si=fgfCaOUqzgA6jKs8"></a>
+                </li>
             </ul>
         </div>
         <hr class="border-black border-b-2 w-full inline-block my-4" />

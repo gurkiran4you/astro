@@ -5,7 +5,7 @@ import { Mainbar } from "./Mainbar.tsx";
 export function Navbar() {
   return (
     <nav>
-        <Subnav />
+        <Subnav onlyLogo={false} />
         <Mainbar />
     </nav>
   );

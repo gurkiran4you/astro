@@ -1,3 +1,4 @@
+import { AboutMe } from "../components/AboutMe.tsx";
 import { Footer } from "../components/Footer.tsx";
 import { Navbar } from "../components/navbar.tsx";
 import { Services } from "../components/Services.tsx";
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <Services />
+      <AboutMe />
       <USP />
       <Footer />
     </>
