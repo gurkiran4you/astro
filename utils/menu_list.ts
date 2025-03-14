@@ -61,7 +61,7 @@ export const menu_list: Menu[] = [
         id: 7,
         type: "astrology",
         name: 'Meditation and 9 planets healing',
-        duration: '1 hour',
+        duration: '60 minutes',
         price: 2000,
         description: 'Each of the 9 planets in vedic  astrology influences different aspects of our life .Meditation aligned with planetary energies can balance karmic influences and enhance spiritual growth .'
     },

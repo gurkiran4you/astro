@@ -4,8 +4,10 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $book_index from "./routes/book/index.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $menu_index from "./routes/menu/index.tsx";
+import * as $BookingForm from "./islands/BookingForm.tsx";
 import * as $MenuCard from "./islands/MenuCard.tsx";
 import * as $MenuDetails from "./islands/MenuDetails.tsx";
 import * as $ServiceCards from "./islands/ServiceCards.tsx";
@@ -15,10 +17,12 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/book/index.tsx": $book_index,
     "./routes/index.tsx": $index,
     "./routes/menu/index.tsx": $menu_index,
   },
   islands: {
+    "./islands/BookingForm.tsx": $BookingForm,
     "./islands/MenuCard.tsx": $MenuCard,
     "./islands/MenuDetails.tsx": $MenuDetails,
     "./islands/ServiceCards.tsx": $ServiceCards,
