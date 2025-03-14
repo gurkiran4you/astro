@@ -107,7 +107,7 @@ export function Cards() {
                         </p>
                     </figcaption>
                 </figure>
-                <span onClick={() => setOpen('astrology')} class={` ${open === 'horoscope' ? 'pb-5' : ''} text-black cursor-pointer hover:underline border w-full inline-block text-center bg-cyan-100 border-t-[navajowhite] border-solid border-[cadetblue]`}>Learn more</span> 
+                <span onClick={() => setOpen('astrology')} class={` ${open === 'astrology' ? 'pb-5' : ''} text-black cursor-pointer hover:underline border w-full inline-block text-center bg-cyan-100 border-t-[navajowhite] border-solid border-[cadetblue]`}>Learn more</span> 
             </div>
             <div class="w-[95%] m-auto  md:w-1/3 relative">
                 <figure class="relative group">
