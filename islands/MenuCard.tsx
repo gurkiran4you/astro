@@ -28,7 +28,7 @@ export function MenuCard(props: MenuProps) {
                 </div>
                 <h3 class="px-2 py-4 font-serif text-gray-400 uppercase text-4xl">{type}</h3>
             </div>
-            <ul class={`transition-[max-height] duration-500 ease-in-out overflow-hidden ${toggle ? 'max-h-0' : 'max-h-[500vh]'}`}>
+            <ul class={`transition-[max-height] duration-500 ease-in-out overflow-hidden ${toggle ? 'max-h-0' : 'max-h-[800vh]'}`}>
                 {
                     data.map(datum => {
                         return (
