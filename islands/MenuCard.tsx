@@ -41,7 +41,7 @@ export function MenuCard(props: MenuProps) {
                                 <div class={`${selectedIds.includes(datum.id) ? 'opacity-100 w-[5%] bg-green-500' : 'opacity-0 w-[0%]' } transition-all flex justify-center items-center`}>
                                     <img src="icons/tick.svg" class="text-white" height="100%" />
                                 </div>
-                                <div class={`${selectedIds.includes(datum.id) ? 'border-[hotpink] border-2 w-[95%]' : ''} w-full gap-4 md:gap-0 shadow-[rgba(50,50,93,0.25)_0px_30px_60px_-12px_inset,rgba(0,0,0,0.3)_0px_18px_36px_-18px_inset] md:shadow-none items-center md:items-start flex-col md:flex-row cursor-pointer flex my-2 mx-4 px-2 py-4 group hover:outline-dotted hover:outline-gray-300 relative`} >
+                                <div class={`${selectedIds.includes(datum.id) ? 'border-[hotpink] border-2 w-[90%] md:w-[95%]' : ''} w-[90%] md:w-full gap-4 md:gap-0 shadow-[rgba(50,50,93,0.25)_0px_30px_60px_-12px_inset,rgba(0,0,0,0.3)_0px_18px_36px_-18px_inset] md:shadow-none items-center md:items-start flex-col md:flex-row cursor-pointer flex my-2 mx-4 px-2 py-4 group hover:outline-dotted hover:outline-gray-300 relative`} >
                                     <div class="w-4/5 text-center md:text-start">
                                         <div class="flex flex-col md:flex-rw items-center md:items-baseline gap-4">
                                             <h3 class="font-sans text-2xl capitalize">{datum.name}</h3>

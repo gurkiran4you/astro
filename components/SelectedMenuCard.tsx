@@ -30,7 +30,7 @@ export function SelectedMenuCard(props: Props) {
         {
             selected_ids.length > 0 && (
                 <div>
-                    <article class="text-xl text-gray-500 my-5 border-dashed border">
+                    <article class="text-sm md:text-xl text-gray-500 my-5 border-dashed border">
                         You have selected the follwing services:
                         {
                             menu_title.map((title, index) => {
