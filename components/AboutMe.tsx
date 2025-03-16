@@ -5,7 +5,7 @@ export function AboutMe() {
   return (
     <section id="about" class="my-2 w-[95%] m-auto">
         <LeafHeader id="about" heading="About Me" />
-        <article class="flex items-center md:flex-row flex-col gap-4">
+        <article class="flex items-center flex-col gap-4">
             <div class="w-1/3">
                 <img src="images/meetu_rounded.jpg" width="100%" />
             </div>
