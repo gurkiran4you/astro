@@ -30,23 +30,48 @@ export function SelectedMenuCard(props: Props) {
         {
             selected_ids.length > 0 && (
                 <div>
-                    <article class="text-sm md:text-xl text-gray-500 my-5 border-dashed border">
-                        You have selected the follwing services:
-                        {
-                            menu_title.map((title, index) => {
-                            return (
-                                <p class="flex gap-4">
-                                    <span class="">{index + 1}.</span>
-                                    <span class="capitalize">{title}</span>
+                    <article class="flex flex-col gap-4 justify-between text-sm md:text-xl text-gray-500 my-5 border-dashed border">
+                        <div>
+                            <p>You cart:</p>
+                            {
+                                selected_menu.map((menu, index) => {
+                                return (
+                                    <div class="flex flex-wrap justify-between  border-black border-b-2 border-t-2 my-4">
+                                        <p class="w-1/2 flex gap-4 my-2 font-mono text-sm">
+                                            <span class="">{index + 1}.</span>
+                                            <span class="capitalize">{menu.name}</span>
+                                        </p>
+                                        <div class="w-1/2 flex gap-4 text-xl">
+                                            <p class="w-full flex gap-2 text-bold items-center">
+                                                <img src="icons/rupee_thin.svg" width="" />
+                                                <span>{menu.price}</span>
+                                            </p>
+                                            <p class="w-full flex gap-2 text-bold items-center">
+                                                <img src="icons/time.svg" />
+                                                <span>{menu.duration}</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                )
+                                })
+                            }
+                        </div>
+                        <div class="flex justify-between items-center gap-4 text-sm md:text-xl">
+                            <p>Total: </p>
+                            <div class="w-1/2 flex gap-4">
+                                <p class="w-full flex gap-2 text-bold items-center">
+                                    <img src="icons/rupee_thin.svg"  />
+                                    <span>{total_price}</span>
                                 </p>
-                            )
-                            })
-                        }
-                        for a total price of <b>Rs. {total_price}</b> with
-                        total tim of <b>{total_duration} minutes</b>
+                                <p class="w-full flex gap-2 text-bold items-center">
+                                    <img src="icons/time.svg" />
+                                    <span>{total_duration} minutes</span>
+                                </p>
+                            </div>
+                        </div>
 
+                         <a class="self-center my-2 px-4 py-2 border border-orange-300 rounded-sm hover:text-orange-300" href={`/menu?ids=${selected_ids.join(',')}`}>Change selection ?</a>
                     </article>
-                    <a class="px-4 py-2 border border-orange-300 rounded-sm hover:text-orange-300" href={`/menu?ids=${selected_ids.join(',')}`}>Change selection ?</a>
                 </div>
             )
         }

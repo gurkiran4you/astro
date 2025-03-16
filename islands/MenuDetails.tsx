@@ -26,14 +26,14 @@ export function MenuDetails(props: { ids: number[] }) {
                     id.length > 0 && (
                     <>
                         <a 
-                            class="w-fit gap-2 flex items-center cursor-pointer rounded-lg px-4 py-1 border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-yellow-100 duration-300" 
+                            class="w-fit gap-2 flex items-center cursor-pointer rounded-lg px-4 py-1 border-2 bg-yellow-400 border-slate-100 text-slate-100 hover:underline duration-300" 
                             onClick={(e) => resetSelections(e)}>
                                 <img src="icons/reset.svg" class="md:block hidden" width="25%" />
                                 <span class="text-nowrap">Reset</span>
                         </a>
                         <a 
                         href={`/book?ids=${id.join(',')}`}
-                        class="w-fit gap-2 flex items-center cursor-pointer rounded-lg px-6 py-2 border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-green-100 duration-300">
+                        class="w-fit gap-2 flex items-center cursor-pointer rounded-lg px-6 py-2 border-2 bg-green-500 border-slate-100 text-slate-100 hover:underline  duration-300">
                             <span class="text-nowrap">Book</span>
                             <img src="icons/continuebooking.svg" class="md:block hidden" width="100%" />
                         </a>

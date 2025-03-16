@@ -100,7 +100,7 @@ export function Cards() {
             <div class="w-[95%] m-auto md:w-1/3 relative">
                 <figure class="relative group">
                     <img src="images/horo.svg" />
-                    <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity:100 md:opacity-0 transition-opacity duration-300  md:group-hover:opacity-100">
                         <h3>Horoscope</h3>
                         <p class="text-xs text-gray-400 mt-1">
                             Unlock celestial guidance for your destiny. Gain insights and clarity on life’s journey through expert astrology services tailored just for you.
@@ -112,7 +112,7 @@ export function Cards() {
             <div class="w-[95%] m-auto  md:w-1/3 relative">
                 <figure class="relative group">
                     <img src="images/tarot.svg" />
-                    <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-100 md:opacity-0 transition-opacity duration-300 md:group-hover:opacity-100">
                         <h3>Tarot Reading</h3>
                         <p class="text-xs text-gray-400 mt-1">
                             Unlock celestial guidance for your destiny. Gain insights and clarity on life’s journey through expert astrology services tailored just for you.
@@ -124,7 +124,7 @@ export function Cards() {
             <div class="w-[95%] m-auto  md:w-1/3 relative">
                 <figure class="relative group">
                     <img src="images/numerology.svg" />
-                    <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-100 md:opacity-0 transition-opacity duration-300 md:group-hover:opacity-100">
                         <h3>Numerology</h3>
                         <p class="text-xs text-gray-400 mt-1">
                             Decode the numbers of your life’s path. Explore personality traits, destiny, and potential through personalized numerology guidance and ancient wisdom.
