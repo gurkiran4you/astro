@@ -9,7 +9,7 @@ export type MenuProps = {
 }
 
 export function MenuCard(props: MenuProps) {
-    const [toggle, setToggle] =  useState(false);
+    const [toggle, setToggle] =  useState(true);
     const {type, data, setId, selectedIds} = props;
 
     const changeSelected = (id: number) => {
