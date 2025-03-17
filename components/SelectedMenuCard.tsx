@@ -26,7 +26,7 @@ export function SelectedMenuCard(props: Props) {
 
     const selected_ids = selected_menu.map(menu => menu.id);
   return (
-    <section id="selected_menu_card" class="w-[50%] m-auto my-10">
+    <section id="selected_menu_card" class="w-[95%] md:w-[50%] m-auto my-10">
         {
             selected_ids.length > 0 && (
                 <div>
@@ -37,18 +37,18 @@ export function SelectedMenuCard(props: Props) {
                                 selected_menu.map((menu, index) => {
                                 return (
                                     <div class="flex flex-wrap justify-between  border-black border-b-2 border-t-2 my-4">
-                                        <p class="w-1/2 flex gap-4 my-2 font-mono text-sm">
+                                        <p class="w-1/2 flex gap-1 md:gap-4 my-2 font-mono text-sm">
                                             <span class="">{index + 1}.</span>
                                             <span class="capitalize">{menu.name}</span>
                                         </p>
-                                        <div class="w-1/2 flex gap-4 text-xl">
-                                            <p class="w-full flex gap-2 text-bold items-center">
+                                        <div class="w-1/2 flex gap-1 md:gap-4 text-xs md:text-xl">
+                                            <p class="w-full flex gap-1 md:gap-2 text-bold items-center">
                                                 <img src="icons/rupee_thin.svg" width="" />
                                                 <span>{menu.price}</span>
                                             </p>
-                                            <p class="w-full flex gap-2 text-bold items-center">
+                                            <p class="w-full flex gap-1 md:gap-2 text-bold items-center">
                                                 <img src="icons/time.svg" />
-                                                <span>{menu.duration}</span>
+                                                <span class="whitespace-nowrap">{menu.duration}</span>
                                             </p>
                                         </div>
                                     </div>
@@ -56,16 +56,16 @@ export function SelectedMenuCard(props: Props) {
                                 })
                             }
                         </div>
-                        <div class="flex justify-between items-center gap-4 text-sm md:text-xl">
-                            <p>Total: </p>
-                            <div class="w-1/2 flex gap-4">
+                        <div class="flex justify-between items-center gap-1 md:gap-4 text-xs md:text-xl">
+                            <p class="">Total: </p>
+                            <div class="w-1/2 flex gap-1 md:gap-4">
                                 <p class="w-full flex gap-2 text-bold items-center">
                                     <img src="icons/rupee_thin.svg"  />
                                     <span>{total_price}</span>
                                 </p>
-                                <p class="w-full flex gap-2 text-bold items-center">
+                                <p class="w-full flex gap-1 md:gap-2 text-bold items-center">
                                     <img src="icons/time.svg" />
-                                    <span>{total_duration} minutes</span>
+                                    <span class="whitespace-nowrap">{total_duration} minutes</span>
                                 </p>
                             </div>
                         </div>
