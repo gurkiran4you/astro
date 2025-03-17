@@ -26,7 +26,7 @@ export function MenuCard(props: MenuProps) {
                     { !toggle && <img src="icons/arrowup.svg" /> }
                     { toggle && <img src="icons/arrowdown.svg" /> }
                 </div>
-                <h3 class="px-2 py-4 font-serif text-gray-400 uppercase text-4xl">{type}</h3>
+                <h3 class="px-2 py-4 font-serif text-gray-400 uppercase text-xl md:text-4xl">{type}</h3>
             </div>
             <ul class={`transition-[max-height] duration-500 ease-in-out overflow-hidden ${toggle ? 'max-h-0' : 'max-h-[800vh]'}`}>
                 {
