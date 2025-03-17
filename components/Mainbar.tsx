@@ -2,7 +2,7 @@ import { JSX } from "preact";
 
 export function Mainbar() {
   return (
-    <article class="bg-[#efc9de] flex flex-col md:flex-row items-center gap-5 justify-center px-6 py-4 md:py-2 m-auto">
+    <article class="bg-[white] flex flex-col md:flex-row items-center gap-5 justify-center px-6 py-4 md:py-2 m-auto">
       <div class="flex flex-col items-center pt-4 md:pt-0 gap-2 md:w-1/2 order-1 md:order-0">
         <img  src="images/main.jpg" width="400" class="w-[25%] md:w-[50%] rounded-[50%]" />
         <div class="flex flex-col gap-4">
@@ -13,7 +13,7 @@ export function Mainbar() {
   font-family: Kobe, sans-serif;">explore menu</a>
         </div>
       </div>
-      <img class="aspect-square w-1/2 rounded-[50%] scale-125 md:scale-100 order-0 md:order-1" src="images/meetu_main.png" />
+      <img class="aspect-square w-1/2 rounded-[50%] scale-125 md:scale-100 order-0 md:order-1" src="images/meetu_4.jpg" />
     </article>
   );
 }

@@ -32,11 +32,11 @@ export default function Book(props: PageProps<Props>) {
         return ids.includes(li.id)
     });
   return (
-    <>
+    <div class="bg-[antiquewhite]">
         <Subnav onlyLogo={true} />
         <LeafHeader heading="Book Appointment" />
         <SelectedMenuCard selected_menu={selected_menu_items} />
         <BookingForm selected_menu={selected_menu_items} />
-    </>
+    </div>
   );
 }
