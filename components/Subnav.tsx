@@ -9,8 +9,11 @@ export function Subnav(props: Props) {
   return (
     <article class="bg-black sticky z-10 top-0 flex flex-col md:flex-row items-center md:items-start md:justify-between px-4 md:py-2 py-8">
         <p class="text-lg md:text-2xl text-white">
-          <a href="/">
-            𝔐𝔢𝔢𝔱𝔲 𝔓𝔯𝔬𝔬𝔱𝔥𝔦
+          {/* <a href="/" class="text-white">
+          𝘈𝘚𝘛𝘙𝘖𝘓𝘖𝘎𝘠 &nbsp; 𝘞𝘐𝘛𝘏 &nbsp; 𝘔𝘌𝘌𝘛𝘜 &nbsp;𝘗𝘙𝘖𝘖𝘛𝘏𝘐
+          </a> */}
+          <a href="/" class="text-slate-200 inline-block pr-2 capitalize [text-shadow:2px_2px_0px_hotpink] shadow-[2px_5px_5px_brown]">
+         astrology with meetu proothi
           </a>
         </p>
         {/* <div class="flex justify-end items-center gap-2"> */}
