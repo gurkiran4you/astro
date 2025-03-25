@@ -13,7 +13,8 @@ export function Mainbar() {
   font-family: Kobe, sans-serif;">explore menu</a>
         </div>
       </div>
-      <img class="aspect-square w-1/2 rounded-[50%] scale-125 md:scale-100 order-0 md:order-1" src="images/meetu_4.jpg" />
+      <img class="aspect-square w-1/2 rounded-[50%] scale-125 md:scale-100 order-0 md:order-1" src="images/meetu_main.jpg" />
+      
     </article>
   );
 }
