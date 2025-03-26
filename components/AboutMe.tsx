@@ -3,7 +3,7 @@ import { LeafHeader } from "./LeafHeader.tsx";
 
 export function AboutMe() {
   return (
-    <section id="about" class="my-2 w-[95%] m-auto">
+    <section id="about" class="py-2 w-[95%] m-auto">
         <LeafHeader id="about" heading="About Me" />
         <article class="flex items-center flex-col gap-4">
             <div class="w-1/3">
