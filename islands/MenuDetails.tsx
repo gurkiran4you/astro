@@ -1,4 +1,5 @@
 import { useState } from "preact/hooks";
+import { groupBy } from "es-toolkit";
 import { menu_list, Menu_Types } from "../utils/menu_list.ts";
 import { MenuCard } from "./MenuCard.tsx";
 
@@ -13,7 +14,7 @@ export function MenuDetails(props: { ids: number[] }) {
         setId([]);
     }
 
-    const typed_menu = Object.groupBy(menu_list, ({type}) => type);
+    const typed_menu = groupBy(menu_list, ({type}) => type);
     return (
         <>
             <section class="w-[80%] m-auto">
