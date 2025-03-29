@@ -127,8 +127,9 @@ export function BookingForm(props: Props) {
 
                 <div class="flex justify-center items-center -mx-3 my-6">
                     <button type="submit" 
+                        disabled={selected_menu.length === 0 || isLoading}
                         value="Request Booking" 
-                        class="bg-blue-500 inline-flex gap-2 items-center text-white font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-blue-600 focus:ring-2 focus:ring-blue-300">
+                        class="bg-blue-500 disabled:pointer-events-none disabled:opacity-25 inline-flex gap-2 items-center text-white font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-blue-600 focus:ring-2 focus:ring-blue-300">
                            { isLoading && (
                                 <svg class="spinner -ml-1 mr-2 h-5 w-5"  viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
                                     <circle class="path" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
