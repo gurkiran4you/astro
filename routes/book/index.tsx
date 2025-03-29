@@ -1,4 +1,5 @@
 import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
+import { Head } from "$fresh/runtime.ts";
 import { LeafHeader } from "../../components/LeafHeader.tsx";
 import { SelectedMenuCard } from "../../components/SelectedMenuCard.tsx";
 import { Subnav } from "../../components/Subnav.tsx";
@@ -32,11 +33,20 @@ export default function Book(props: PageProps<Props>) {
         return ids.includes(li.id)
     });
   return (
+    <>
+    <Head>
+        <title>Book Your Astrology, Tarot & Numerology Session | Get Insights Now</title>
+        <meta
+        name="description"
+        content="Secure your personalized astrology, tarot, or numerology reading. Book a session easily and receive expert guidance on love, career, and life’s challenges."
+        />
+    </Head>
     <div class="bg-[antiquewhite]">
         <Subnav onlyLogo={true} />
         <LeafHeader heading="Book Appointment" />
         <SelectedMenuCard selected_menu={selected_menu_items} />
         <BookingForm selected_menu={selected_menu_items} />
     </div>
+    </>
   );
 }

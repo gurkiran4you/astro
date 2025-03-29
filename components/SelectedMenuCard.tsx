@@ -69,8 +69,11 @@ export function SelectedMenuCard(props: Props) {
                                 </p>
                             </div>
                         </div>
-
-                         <a class="self-center my-2 px-4 py-2 border border-orange-300 rounded-sm hover:text-orange-300" href={`/menu?ids=${selected_ids.join(',')}`}>Change selection ?</a>
+                        
+                        <div class="flex md:justify-around items-center md:flex-row flex-col">
+                            <a class="text-sm self-center my-2 px-4 py-2 border border-orange-300 rounded-sm hover:text-orange-300" href={`/menu?ids=${selected_ids.join(',')}`}>Change selection</a>
+                            <a class="text-sm self-center my-2 px-4 py-2 border border-pink-500 rounded-sm hover:text-pink-500" href={`/book`}>Reset selection</a>
+                        </div>
                     </article>
                 </div>
             )

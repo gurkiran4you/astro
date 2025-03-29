@@ -8,18 +8,18 @@ export function Footer() {
             <small class="text-sm font-bold font-sans capitalize">Follow us</small>
             <ul class="flex justify-end space-x-4">
                 <li>
-                    <a target="_blank" href="https://www.facebook.com/share/1Up4kZJuXc/">
-                        <img width="24px" src="icons/fb.svg" />
+                    <a target="_blank" aria-label="Visit my facebook page" href="https://www.facebook.com/share/1Up4kZJuXc/">
+                        <img width="24px" alt="facebook icon" src="icons/fb.svg" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.instagram.com/healing_by_meetu_proothi?igsh=MWE1OTY5NDhrbzhy">
-                        <img width="24px" src="icons/ig.svg" />
+                    <a target="_blank" aria-label="Visit my instagram page" href="https://www.instagram.com/healing_by_meetu_proothi?igsh=MWE1OTY5NDhrbzhy">
+                        <img width="24px" alt="instagram icon" src="icons/ig.svg" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://youtube.com/@enlightenmentbymeetuprooth7928?si=fgfCaOUqzgA6jKs8">
-                        <img width="100px" src="icons/yt.svg" />
+                    <a target="_blank" aria-label="Visit my youtube page" href="https://youtube.com/@enlightenmentbymeetuprooth7928?si=fgfCaOUqzgA6jKs8">
+                        <img width="100px" alt="youtube icon" src="icons/yt.svg" />
                     </a>
                 </li>
             </ul>
