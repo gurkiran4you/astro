@@ -99,7 +99,7 @@ export function Cards() {
         <div class="flex flex-col md:flex-row gap-2 items-center justify-around">
             <div class="w-[95%] m-auto md:w-1/3 relative">
                 <figure class="relative group">
-                    <img src="images/horo.svg" />
+                    <img loading="lazy" src="images/horo.svg" alt="astrology image" />
                     <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity:100 md:opacity-0 transition-opacity duration-300  md:group-hover:opacity-100">
                         <h3>Horoscope</h3>
                         <p class="text-xs text-gray-400 mt-1">
@@ -111,7 +111,7 @@ export function Cards() {
             </div>
             <div class="w-[95%] m-auto  md:w-1/3 relative">
                 <figure class="relative group">
-                    <img src="images/tarot.svg" />
+                    <img loading="lazy" alt="tarot card image" src="images/tarot.svg" />
                     <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-100 md:opacity-0 transition-opacity duration-300 md:group-hover:opacity-100">
                         <h3>Tarot Reading</h3>
                         <p class="text-xs text-gray-400 mt-1">
@@ -123,7 +123,7 @@ export function Cards() {
             </div>
             <div class="w-[95%] m-auto  md:w-1/3 relative">
                 <figure class="relative group">
-                    <img src="images/numerology.svg" />
+                    <img loading="lazy" alt="numerology image" src="images/numerology.svg" />
                     <figcaption class="absolute bottom-0 left-0 w-full bg-black bg-opacity-60 text-white text-center p-2 opacity-100 md:opacity-0 transition-opacity duration-300 md:group-hover:opacity-100">
                         <h3>Numerology</h3>
                         <p class="text-xs text-gray-400 mt-1">

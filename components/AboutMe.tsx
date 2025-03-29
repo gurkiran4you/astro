@@ -7,7 +7,7 @@ export function AboutMe() {
         <LeafHeader id="about" heading="About Me" />
         <article class="flex items-center flex-col gap-4">
             <div class="w-1/3">
-                <img src="images/meetu_rounded.jpg" width="100%" />
+                <img loading="lazy" alt="meetu proothi" src="images/meetu_rounded.webp" width="100%" />
             </div>
             <div class="w-2/3 flex flex-col justify-center items-center gap-4">
                 <p class="font-serif text-lg md:text-4xl text-gray-500 text-center">

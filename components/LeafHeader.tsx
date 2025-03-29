@@ -8,7 +8,7 @@ export function LeafHeader(props: Props) {
     return (
         <header id={id} class="text-center m-10">
             <p
-            class="my-2 mx-10 text-center m-auto md:text-4xl text-xl text-[#f472b6] font-bold relative inline-block after:content-[''] after:-z-10 after:w-[50px] after:h-[35px] after:bg-[linear-gradient(#f472b6,_#fff)] after:absolute after:-top-[20px] after:left-[0] after:rotate-[10deg] after:rounded-tl-[35px] after:rounded-br-[35px]">
+            class="my-2 mx-10 text-center m-auto md:text-4xl text-xl text-[#ff2897] font-bold relative inline-block after:content-[''] after:-z-10 after:w-[50px] after:h-[35px] after:bg-[linear-gradient(#f472b6,_#fff)] after:absolute after:-top-[20px] after:left-[0] after:rotate-[10deg] after:rounded-tl-[35px] after:rounded-br-[35px]">
                 { heading }
             </p>
 
